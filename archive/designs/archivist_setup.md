@@ -284,7 +284,7 @@ Additional requirements (from the `archive/agent_blueprints/archivist.md` specif
   - Deduplicate assets by filename when adding to `/archive/assets`.
 - Agent behavioral rules (must be enforced by the agent/skills):
   - Do not modify existing documents without explicit user approval.
-  - Preserve chronological filenames (date prefix).
+  - Preserve original filenames (slug) when appending or archiving; do not prepend a date prefix. Use the `**Date:**` metadata field for chronological ordering.
   - Do not introduce new top-level directories outside `/archive` and `/archive/assets`.
   - Documents must remain valid Markdown.
 - Optional index file: agent may generate `/archive/index.md` grouped by year, listing titles and tags.
