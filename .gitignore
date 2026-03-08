@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# macOS
+# Finder and system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon?
+
+# Spotlight, Trash, Time Machine, and filesystem events
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.fseventsd/
+.DocumentRevisions-V100/
