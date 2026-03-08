@@ -1,3 +1,5 @@
+# Archivist
+
 Below is a **Copilot-native project layout** designed so **VS Code GitHub Copilot can automatically discover agents, skills, maps, and policies** without heavy prompting. The structure prioritizes:
 
 * predictable discovery
