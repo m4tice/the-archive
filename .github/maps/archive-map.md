@@ -12,7 +12,7 @@ This document defines the **structure, ID system, and rules** for the archive.
 
 ```
 /archive
-  ├── policy/              ← ID 1xxxx: Archive policies and governance
+  ├── design/              ← ID 1xxxx: Archive policies and governance
   ├── projects/            ← ID 2xxxx: Software project ideas
   ├── academic/            ← ID 3xxxx: Research, courses, learning
   ├── technical/           ← ID 4xxxx: Technical deep-dives
@@ -32,7 +32,7 @@ Every document must have a unique ID conforming to the format **XNNNN** where:
 
 | ID Prefix | Category | Directory | Example IDs |
 |-----------|----------|-----------|-------------|
-| **1** | Policy | `/archive/policy` | 10001, 10002, 10003 |
+| **1** | Policy | `/archive/design` | 10001, 10002, 10003 |
 | **2** | Projects | `/archive/projects` | 20001, 20002, 20003 |
 | **3** | Academic | `/archive/academic` | 30001, 30002, 30003 |
 | **4** | Technical | `/archive/technical` | 40001, 40002, 40003 |
@@ -82,7 +82,7 @@ Every document must begin with metadata in this exact order:
 
 **Critical Rule:** ID prefix must match directory.
 
-- **If ID is 1xxxx** → File MUST be in `/archive/policy/`
+- **If ID is 1xxxx** → File MUST be in `/archive/design/`
 - **If ID is 2xxxx** → File MUST be in `/archive/projects/`
 - **If ID is 3xxxx** → File MUST be in `/archive/academic/`
 - **If ID is 4xxxx** → File MUST be in `/archive/technical/`

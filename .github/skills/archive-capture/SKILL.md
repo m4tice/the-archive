@@ -12,7 +12,7 @@ Create a new archive document in the appropriate category directory within `/arc
 
 | Prefix | Category | Directory | Range |
 |--------|----------|-----------|-------|
-| 1 | Policy | `/archive/policy` | 10001–10999 |
+| 1 | Policy | `/archive/design` | 10001–10999 |
 | 2 | Projects | `/archive/projects` | 20001–20999 |
 | 3 | Academic | `/archive/academic` | 30001–30999 |
 | 4 | Technical | `/archive/technical` | 40001–40999 |

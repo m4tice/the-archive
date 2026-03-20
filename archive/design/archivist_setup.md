@@ -94,7 +94,7 @@ Metadata Fields: ID, Title, Author, Date, Tags
 
 Run:
 ```
-/create_instructions
+/ create_instructions
 ```
 
 | Field | Value |
@@ -214,7 +214,7 @@ Constraints:
 
 Run:
 ```
-/create_prompt
+/ create_prompt
 ```
 
 | Field | Value |
@@ -237,7 +237,7 @@ Search archive for:
 
 Run:
 ```
-/create_hook
+/ create_hook
 ```
 
 Two hooks to define:

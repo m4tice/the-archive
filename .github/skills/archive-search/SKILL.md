@@ -12,7 +12,7 @@ Search the archive by keyword, tag, date range, or category.
 
 | ID Prefix | Category | Directory |
 |-----------|----------|-----------|
-| 1 | Policy | `/archive/policy` |
+| 1 | Policy | `/archive/design` |
 | 2 | Projects | `/archive/projects` |
 | 3 | Academic | `/archive/academic` |
 | 4 | Technical | `/archive/technical` |
@@ -37,4 +37,4 @@ Search the archive by keyword, tag, date range, or category.
 ## Constraints
 - Search is read-only.
 - Results must include: filename, title, date, ID, and tags.
-- Search scan order: `/archive/policy`, `/archive/projects`, `/archive/academic`, `/archive/technical`, `/archive/personal-interests`.
+ - Search scan order: `/archive/design`, `/archive/projects`, `/archive/academic`, `/archive/technical`, `/archive/personal-interests`.

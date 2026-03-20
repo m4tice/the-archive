@@ -12,7 +12,7 @@ Read, validate, and correct metadata on an existing archive document. Ensure ID 
 
 | Prefix | Category | Directory |
 |--------|----------|-----------|
-| 1 | Policy | `/archive/policy` |
+| 1 | Policy | `/archive/design` |
 | 2 | Projects | `/archive/projects` |
 | 3 | Academic | `/archive/academic` |
 | 4 | Technical | `/archive/technical` |
@@ -24,7 +24,7 @@ Read, validate, and correct metadata on an existing archive document. Ensure ID 
 3. **Validate ID format**:
    - Must be 5 digits (XNNNN, e.g., 10001, 20001, 40001).
    - ID prefix (first digit) must match the document's category:
-     - 1xxxx → must be in `/archive/policy`
+     - 1xxxx → must be in `/archive/design`
      - 2xxxx → must be in `/archive/projects`
      - 3xxxx → must be in `/archive/academic`
      - 4xxxx → must be in `/archive/technical`

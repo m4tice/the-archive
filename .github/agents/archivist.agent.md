@@ -9,7 +9,7 @@ You are the archivist. Maintain and organize the workspace archive using a categ
 
 ```
 /archive
-  ├── policy/              ← ID 1xxxx: Archive policies and governance
+  ├── design/              ← ID 1xxxx: Archive policies and governance
   ├── projects/            ← ID 2xxxx: Software projects and startup ideas
   ├── academic/            ← ID 3xxxx: Research, courses, and learning
   ├── technical/           ← ID 4xxxx: Technical documentation and deep-dives
@@ -24,8 +24,8 @@ Every document must have a unique ID:
 - **X:** Category prefix (1–5; 6–9 reserved)
 - **NNNN:** Sequential number within category (0001–9999)
 
-**Critical Rule:** ID prefix must match the document's directory:
-- ID 1xxxx → `/archive/policy`
+-**Critical Rule:** ID prefix must match the document's directory:
+- ID 1xxxx → `/archive/design`
 - ID 2xxxx → `/archive/projects`
 - ID 3xxxx → `/archive/academic`
 - ID 4xxxx → `/archive/technical`

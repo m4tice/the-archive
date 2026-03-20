@@ -181,8 +181,6 @@ Tags
 
 The map defines the **structural rules of the archive**.
 
-Agents must consult it before making changes.
-
 ---
 
 # 6. Security Policy
