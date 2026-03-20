@@ -6,15 +6,28 @@ description: "Create a new archive document. Use when archiving a note, saving c
 # Archive Capture
 
 ## Purpose
-Create a new archive document in `/archive`.
+Create a new archive document in the appropriate category directory within `/archive`.
+
+## ID System (5-digit format: XNNNN)
+
+| Prefix | Category | Directory | Range |
+|--------|----------|-----------|-------|
+| 1 | Policy | `/archive/policy` | 10001–10999 |
+| 2 | Projects | `/archive/projects` | 20001–20999 |
+| 3 | Academic | `/archive/academic` | 30001–30999 |
+| 4 | Technical | `/archive/technical` | 40001–40999 |
+| 5 | Personal Interests | `/archive/personal-interests` | 50001–50999 |
+| 6–9 | Reserved | N/A | future use |
 
 ## Procedure
-1. Generate a document title from the content.
-2. Generate a URL-safe slug from the title.
-3. Create filename using pattern `slug.md` (preserve original slug when archiving existing documents; do NOT prepend the date).
-4. Insert metadata header at the top of the document in fixed order using bold inline fields (match source format):
+1. **Determine category** — policy, projects, academic, technical, or personal-interests.
+2. **Generate document title** from the content.
+3. **Generate URL-safe slug** from the title.
+4. **Assign ID** based on category prefix and next available sequential number within that category (e.g., 10001, 20001, 40001, 50001).
+5. **Create filename** using pattern `slug.md` (no date prefix; preserve original slug when archiving).
+6. **Insert metadata header** in fixed order at the top of the document using bold inline fields:
    ```
-   **ID:** <uuid or sequential>  
+   **ID:** <XNNNN>  
    **Title:** <title>  
    **Author:** <author>  
    **Date:** <YYYY-MM-DD>  
@@ -22,12 +35,12 @@ Create a new archive document in `/archive`.
 
    ---
    ```
-5. Save to `/archive/slug.md`.
+7. **Save to category directory**: `/archive/<category>/slug.md`
 
 ## Constraints
-- Prefer preserving the original filename (`slug.md`) when archiving or appending to an existing document.
-- When creating a new document without an original filename, use `slug.md` (no date prefix).
-- Metadata header is mandatory and must appear first.
+- ID must match the 5-digit format (XNNNN) corresponding to the category.
+- Document must be saved in the correct category directory.
+- Metadata header is mandatory and must appear first in fixed order.
+- Preserve original filenames (slug) when archiving; do not prepend date.
 - Document must be valid Markdown.
-- Metadata header is mandatory and must appear first.
-- Document must be valid Markdown.
+- Directory `/archive/assets` is reserved for binary assets only.

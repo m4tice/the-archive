@@ -1,3 +1,11 @@
+**ID:** 10001  
+**Title:** Archivist  
+**Author:** m4tice  
+**Date:** 2026-03-20  
+**Tags:** designs  
+
+---
+
 # Archivist
 
 Below is a **Copilot-native project layout** designed so **VS Code GitHub Copilot can automatically discover agents, skills, maps, and policies** without heavy prompting. The structure prioritizes:

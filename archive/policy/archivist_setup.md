@@ -1,3 +1,11 @@
+**ID:** 10002  
+**Title:** Archivist Setup — Step-by-Step Plan  
+**Author:** m4tice  
+**Date:** 2026-03-20  
+**Tags:** designs  
+
+---
+
 # Archivist Setup — Step-by-Step Plan
 
 A complete guide to building the archivist system from scratch using Copilot slash commands.
