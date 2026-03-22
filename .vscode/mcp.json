@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "archive-tools": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": [
+        "${workspaceFolder}/.github/mcp/archive-tools/server.py"
+      ]
+    }
+  }
+}
